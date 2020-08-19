@@ -1,0 +1,241 @@
+body {
+    font-family: "Nunito Sans";
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(../img/jumbotron/background.jpeg);
+    background-color: rgba(39, 38, 38, 0.25);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
+
+.jumbotron button,
+.create .content button {
+    text-transform: uppercase;
+    background: #258E35;
+    padding: 20px 43px;
+    border-radius: 6px;
+    font-weight: 800;
+}
+.jumbotron button:hover{
+    background: rgba(37, 142, 53, 0.76);
+}
+
+.jumbotron .card {
+    background: rgba(41, 40, 40, 0.575);
+    border: none;
+}
+
+.jumbotron .card .title h6 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #258E35;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.jumbotron .card .card-body p {
+    color: #DEDEDE;
+    font-size: 14px;
+}
+
+/* BRANDS */
+
+.brands {
+    background: #010716;
+    padding: 79px 0;
+}
+
+/* ABOUT */
+
+.about {
+    background: #03060D;
+    padding: 165px 0;
+}
+
+.about .content h6,
+.works .content h6,
+.service .content h6,
+.support .content h6 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: 800;
+}
+
+.about .content h2,
+.create .content h2,
+.works .content h2,
+.service .content h2,
+.support .content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    line-height: 63px;
+    letter-spacing: 0.01em;
+}
+
+.about .content p {
+    line-height: 31px;
+    letter-spacing: 0.005em;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 48px;
+}
+
+.about .content a {
+    font-size: 16px;
+    color: #258E35;
+    font-weight: 800;
+}
+
+/* CREATE */
+
+.create {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 139px 0;
+    background-image: url(../img/histori/background2.jpeg);
+}
+
+.create .content p {
+    line-height: 31px;
+    letter-spacing: 0.005em;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 35px;
+}
+
+/* SERVICE */
+
+.service {
+    background: #060910;
+    padding: 167px 0 212px 0;
+}
+
+.service h4 {
+    font-size: 20px;
+    color: #258E35;
+    font-weight: 800;
+    margin: 30px 0 15px 0;
+}
+
+.service p {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #9A9B9E;
+}
+
+.service .card {
+    border-top-color: #060910;
+    border-top-width: 5px;
+    background: #060910;
+    transition: .3s;
+}
+
+.service .card-body {
+    padding: 55px 55px 42px 55px;
+}
+
+.service .card:hover {
+    background: #070C18;
+}
+
+/* Galery */
+
+.galery {
+    padding: 167px 0 160px 0;
+    background: #03060D;
+}
+
+.galery .pagination img:hover {
+    cursor: pointer;
+}
+
+.galery .pagination {
+    justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    background:#03060D;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 991px) {
+    .jumbotron button {
+        margin-bottom: 50px;
+    }
+
+    .brands img {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jumbotron .left {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    /* JUMBOTRON */
+
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .jumbotron .left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .jumbotron .right {
+        text-align: center;
+    }
+
+    /* BRANDS */
+    .brands img {
+        margin-bottom: 50px;
+    }
+
+    /* CREATE */
+    .create .content {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .create .content h2 {
+        font-size: 45px;
+    }
+
+    /* SUPPORT */
+    .support .content {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+
+
+}
